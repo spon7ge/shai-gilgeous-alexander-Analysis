@@ -63,7 +63,7 @@ Anthony Edwards was selected 1st overall in the 2020 NBA Draft and has rapidly d
 
 ## Key Functions
 
-### `SGA_functions.py` contains:
+### `ant_functions.py` contains:
 
 - `get_players_stats(player_id, season)` - Retrieve basic season statistics
 - `get_shot_chart(player_id, year)` - Fetch detailed shot chart data with coordinates
@@ -102,66 +102,3 @@ pip install scikit-learn
 2. Install required dependencies
 3. Open `Ant.ipynb` in Jupyter Notebook
 4. Run cells sequentially to reproduce the analysis
-
-## Key Insights
-
-### Career Highlights
-- **Explosive Rookie Season**: Immediate impact as #1 overall pick
-- **Scoring Evolution**: Rapid development from 19.3 PPG (rookie) to 25+ PPG 
-- **Efficiency Growth**: Consistent improvement in True Shooting percentage
-- **Usage Scaling**: Ability to maintain efficiency while increasing usage rate
-- **Two-Way Development**: Improving Net Rating showing positive team impact
-
-### Statistical Trends
-- **Strong Usage-Efficiency Relationship**: Analysis of whether Edwards maintains efficiency with increased offensive load
-- **3-Point Evolution**: Tracking development of perimeter shooting
-- **Pace Independence**: Performance consistency across different game tempos
-- **Advanced Metrics Growth**: Improvement in PIE, Net Rating, and overall impact measures
-
-## 2025-26 Machine Learning Predictions
-
-Based on linear regression analysis trained on NBA-wide player data:
-- **Predicted PPG**: [Model output from trained regression]
-- **Predicted APG**: [Model output for assists progression]
-- **Predicted RPG**: [Model output for rebounds consistency]
-- **Model Confidence**: R² scores and RMSE validation metrics
-- **Feature Importance**: Career year, previous season performance, and usage rate as key predictors
-
-## Visualizations
-
-The analysis includes:
-- **Advanced Metrics Dashboard** - 6-panel comprehensive overview with dual-axis charts
-- **Career Progression Charts** - Clean white background with black edge styling
-- **Usage vs Efficiency Analysis** - Critical performance relationship visualization
-- **Shooting Evolution** - Multi-season efficiency and volume trends
-- **Machine Learning Predictions** - Visual forecast with historical trend context
-- **Net Rating Analysis** - Color-coded positive/negative impact visualization
-
-## Future Work
-
-- **Playoff Performance Analysis** - Deep dive into postseason efficiency
-- **Defensive Metrics Integration** - Advanced defensive impact analysis
-- **Team Context Analysis** - Performance with different lineups and teammates
-- **Injury Impact Assessment** - Performance before/after injury periods
-- **Draft Class Comparison** - Analysis vs other 2020 draft picks
-- **Real-time Model Updates** - Dynamic prediction updates with new season data
-
-## Technical Notes
-
-- **Data Quality**: Proper handling of pace metrics (averaged not summed)
-- **Missing Value Treatment**: Robust NaN handling in machine learning pipeline
-- **Feature Engineering**: Career progression variables and previous season predictors
-- **Model Validation**: Cross-validation with NBA-wide player dataset
-- **Visualization Standards**: Consistent professional styling across all charts
-- **Season Aggregation**: Proper multi-season data consolidation with SEASON_ID formatting
-
-## Data Sources
-
-- **NBA API**: Official NBA statistics and shot chart coordinates
-- **Basketball Reference**: Advanced metrics and historical context
-- **Analysis Period**: 2020-21 through 2024-25 regular seasons
-- **Prediction Target**: 2025-26 season performance projections
-
----
-
-*Analysis complete with machine learning predictions for Anthony Edwards' continued development as an elite NBA player. The data-driven approach provides evidence-based insights into his trajectory toward superstar status.*
